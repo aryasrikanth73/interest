@@ -52,21 +52,21 @@
                 </select>
             </div>
             <div class="form-group">
+              <label for="rate" class="form-label">Rate of Interest:</label>
+              <input type="number" id="rate" class="form-control" required>
+          </div>
+            <div class="form-group">
                 <label for="time" class="form-label">Time period:</label>
                 <input type="number" id="time" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="rate" class="form-label">Rate of Interest:</label>
-                <input type="number" id="rate" class="form-control" required>
             </div>
             <button class="btn btn-primary" onclick="calculateInterest()">Calculate</button>
         </div>
         <div class="col-md-8">
             <div class="result row">
               <div class="col-md-12">
-                <p>% of Interest/year: <span id="roiy"></span></p>
-                <p>% of Interest/month: <span id="roim"></span></p>
-                <p>% of Interest/day: <span id="roid"></span></p>
+                <p>Percentage of Interest/year: <span id="roiy"></span></p>
+                <p>Percentage of Interest/month: <span id="roim"></span></p>
+                <p>Percentage of Interest/day: <span id="roid"></span></p>
                 <p>Interest Amount: <span id="interest"></span></p>
                 <p>Amount + Interest: <span id="total"></span></p>
               </div>
